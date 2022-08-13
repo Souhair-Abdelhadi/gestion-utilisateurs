@@ -118,9 +118,11 @@ class Profile extends Component {
                 res.json().then((data)=>{
                     console.log(data)
                     var user = JSON.parse(localStorage.getItem("user"))
-                    user.email = this.state.email
-                    localStorage.setItem("user",JSON.stringify(user))
-                    window.location.reload()
+                    if(data.status == "OK"){
+                        user.email = this.state.email
+                        localStorage.setItem("user",JSON.stringify(user))
+                        window.location.reload()
+                    }
                     $('#error_message').css("color","red")
                     $('#error_message').text(data.message)
                 })
