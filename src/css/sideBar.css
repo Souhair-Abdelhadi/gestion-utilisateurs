@@ -1,0 +1,102 @@
+.sidebar_grid {
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-gap: 0px !important;
+}
+
+.sidebar_container {
+    height: 100vh;
+    background-color: #000000;
+    left: 0px !important;
+    width: 100% !important ;
+    left: 0px !important;
+    top: 0px !important;
+    
+    
+
+
+}
+
+.nav_scroll {
+    scroll-behavior: smooth;
+}
+.nav_items {
+
+    margin-top: 15%;
+
+}
+.exit_icon {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    color:white;
+    left: 15%;
+    top: 2%;
+    cursor: pointer;
+
+}
+.exit_icon:hover {
+    color: rgb(233, 211, 10);
+    transition: 300ms ease-in;
+
+}
+
+
+.sidebar_user_image img {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    margin-bottom: 14px;
+}
+
+.item {
+    margin-top: 15%;
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    color: white !important; 
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.item:hover {
+    border-bottom: 2px solid rgb(233, 211, 10);
+    color: rgb(233, 211, 10) !important; 
+    transition: 300ms ease-in;
+}
+
+.profile {
+
+    justify-content: center;
+    align-self: center;
+    border-bottom: 5px solid white;
+    margin-bottom: 10%;
+    margin-top: 20%;
+}
+
+.user_name_email p {
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 1%;
+    
+}
+.user_name_email > p {
+    text-transform: uppercase;
+    
+}
+.user_image {
+    border-width: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px ;
+    border-color: gray;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.props_children {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 600px;
+}
+

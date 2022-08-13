@@ -1,0 +1,265 @@
+tbody {
+    display: block;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+thead {
+    width: calc( 100% - 1.5em );
+    
+}
+
+td,th {
+    font-size: 16px;
+    word-wrap:break-word
+}
+.interface_header {
+    background-color: #021B40;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px black;
+}
+#header_text {
+    font-size: 45px;
+    color: rgba(231, 231, 231, 0.685);
+}
+
+.interface_table {
+    margin-top: 3%;
+    width: 90%;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.image_div {
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 100vh;
+    width: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+    
+}
+#image {
+    display: flex;
+    height: 500px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+}
+
+.close_icon {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    color: white;
+    left: 90% ;
+    top: 3%;
+    cursor: pointer;
+
+}
+.close_icon:hover {
+    color: red;
+    transition: 200ms ease-in-out;
+}
+
+.bar_actions {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    height: 40px;
+    align-items: center;
+}
+
+.ajouter_user_btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    width: fit-content !important;
+    background-color: #000000 !important;
+    color: white !important;
+    
+}
+.search_input {
+    width: 350px !important;
+    margin-left: 20%;
+}
+
+.error_div {
+ 
+    height: 60px;
+    width: 60%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#error_message {
+    font-size: 25px;
+    color : red;
+    
+}
+
+
+.form_div {
+    margin-top: 5%;
+    width: 60%;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.input_group {
+    margin-top: 4% !important;
+}
+
+.input_text {
+    font-size: 16px !important;
+}
+
+.feed_back {
+    font-size: 18px !important;
+}
+
+#inputGroup-sizing-lg {
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    justify-content: center;
+    background-color: #000000 ;
+    color: white;
+}
+
+#submit {
+   
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 40%;
+    width: 150px;
+    margin-top: 5%;
+}
+
+.form_box {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#automate_img {
+    font-size: 15px;
+
+}
+
+#image_error {
+
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#view_button {
+    width: 90px;
+    color: white;
+    font-size: 17px;
+}
+.option_text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form_textarea {
+    resize: none;
+
+}
+
+.form_headers {
+    margin-top: 20px !important;
+    border-bottom : 2px solid #021B40;
+}
+.form_headers h1 ,h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.piece_selected {
+    font-size: 16px;
+    color: #021B40;
+    cursor: pointer;
+}
+
+.piece_selected:hover {
+    font-size: 16px;
+    color: red;
+    transition: 300ms ease-in-out;
+}
+
+.description_modal {
+    
+    width: 60%;
+    background-color: white;
+    left: 20%;
+    top : 20%;
+    position: absolute;
+    z-index: 500;
+    
+}
+
+.description_modal h4 {
+    background-color: #021B40;
+    height: 40px;
+    color: white;
+    font-size: 25px;
+    padding-top: 3px;
+
+}
+
+.description_text {
+   
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-right: 3px;
+}
+
+.description_text p {
+    font-size: 18px;
+    color: black;
+    
+
+}
+
+#tab_sort {
+    margin-left: 70%;
+    
+}
+#tab_sort label{
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+#tab_sort select {
+    background-color: black;
+    color: white;
+    padding: 5px  20px;
+}
